@@ -5,7 +5,7 @@ import Foundation
   ## Colas concurrentes
 */
 
-let concurrentQueue = DispatchQueue(label: "loopinfinito.concurrent.queue", attributes: .concurrent)
+let concurrentQueue = DispatchQueue(label: "swiftbeta.concurrent.queue", attributes: .concurrent)
 
 concurrentQueue.async {
     print("Started task 1...")

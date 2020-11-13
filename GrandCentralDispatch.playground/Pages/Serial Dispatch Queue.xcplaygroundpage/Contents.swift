@@ -3,14 +3,14 @@ import Foundation
 
 /*:
  # Grand Central Dispatch
-  Podéis encontrar el post aquí https://www.loopinfinito.io/grand-central-dispatch/
+   Podéis encontrar el post aquí https://www.swiftbeta.com/grand-central-dispatch/
 */
 
 /*:
   ## Colas en serie
 */
 
-let serialQueue = DispatchQueue.init(label: "loopinfinito.serial.queue")
+let serialQueue = DispatchQueue.init(label: "swiftbeta.serial.queue")
 
 serialQueue.async {
     print("Started task 1...")
