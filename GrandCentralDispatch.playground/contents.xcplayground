@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true'>
+    <pages>
+        <page name='Serial Dispatch Queue'/>
+        <page name='Concurrent Dispatch Queue'/>
+        <page name='Tipos de Colas'/>
+        <page name='Asíncrono vs síncrono'/>
+        <page name='Delay Task'/>
+    </pages>
+</playground>
